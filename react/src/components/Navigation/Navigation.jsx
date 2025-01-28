@@ -17,13 +17,13 @@ function Navigation(){
                 <NavLink to="/services">Services</NavLink>
             </li>
             <li>
-                <NavLink to="/">Online Services</NavLink>
+                <NavLink to="/forms">Forms</NavLink>
             </li>
             <li>
-                <NavLink to="/">Contact Us</NavLink>
+                <NavLink to="/contact">Contact Us</NavLink>
             </li>
             <li>
-                <NavLink to="/">Forms</NavLink>
+                <NavLink to="/online-services">Online Services</NavLink>
             </li>
         </ul>
     </>

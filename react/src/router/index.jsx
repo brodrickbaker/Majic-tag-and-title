@@ -1,8 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from '../components/MainPaige';
+import App from '../components/MainPage';
 import Layout from './Layout';
 import AboutUs from '../components/AboutUs';
-import Services from '../components/Services/Services';
+import Services from '../components/Services';
+import Forms from '../components/Forms';
+import Contact from '../components/Contact';
+import OnlineServices from '../components/OnlineServices';
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +22,18 @@ export const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services />,
+      },
+      {
+        path: "/forms",
+        element: <Forms />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/online-services",
+        element: <OnlineServices />,
       },
     ]
   }

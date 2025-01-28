@@ -1,0 +1,22 @@
+.nav {
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 55px;
+    box-sizing: border-box;
+    margin: 0px;
+    z-index: 99;
+    background-color: #111374;
+    border-bottom: 2px solid black;
+  }
+
+.nav img {
+    height: 50px;
+}
+
+.nav li {
+    list-style: none;
+}

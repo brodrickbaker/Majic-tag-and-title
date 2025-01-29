@@ -8,7 +8,7 @@ function Navigation(){
     <>
         <ul className="nav">
             <li>
-                <NavLink to="/"><img src={logo}></img></NavLink>
+                <NavLink to="/">Home</NavLink>
             </li>
             <li>
                 <NavLink to="/aboutus">About us</NavLink>

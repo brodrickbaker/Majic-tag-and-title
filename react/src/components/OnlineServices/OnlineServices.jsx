@@ -2,16 +2,17 @@
 
 const OnlineServices = () => {
   return (
-    <div>
-      <ul>
+    <main>
+      <h2>Online Services</h2>
+      <ul>  
         <li>Renewals</li>
         <li>Duplicate Registration</li>
         <li>Duplicate Titles</li>
         <li>Substitute Stickers</li>
         <li>Substitute Plates</li>
       </ul>
-      Coming Soon...
-    </div>
+      <h2>Coming Soon...</h2>
+    </main>
   )
 };
 

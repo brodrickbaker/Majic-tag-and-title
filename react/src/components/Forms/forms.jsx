@@ -1,9 +1,10 @@
 
 const Forms = () => {
   return (
-    <div>
-      <button>POA</button>
-    </div>
+    <main>
+        <h2>Forms</h2>
+        <button>POA</button>
+    </main>
   )
 };
 

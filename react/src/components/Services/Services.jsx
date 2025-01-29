@@ -1,7 +1,7 @@
 const Services = () => {
   return (
-    <div>
-      <h2>Services:</h2>
+    <main>
+      <h2>Services</h2>
       <ul>
         <li>New Title and Registration</li>
         <li>Tag Transfers</li>
@@ -19,7 +19,7 @@ const Services = () => {
         <li>Tag returns</li>
         <li>Address change</li>
       </ul>
-    </div>
+    </main>
   )
 };
 
